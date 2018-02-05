@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>맨투맨티비</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/page.js"></script>
+<script type="text/javascript" src="js/flexslider/jquery.flexslider.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+        $('.main_roll').flexslider({
+			animation: "fade",            
+			slideshow: true,              
+			slideshowSpeed: 3000,         
+			initDelay: 0,                 
+			pauseOnAction: false,          
+			pauseOnHover: false,          
+			video: false,                
+			controlNav: true,            
+			directionNav: false,           
+			prevText: "Previous",         
+			nextText: "Next"              
+		});
+		
+    });
+</script>
+</head>
+
+<body>
+			<!-- 팝업 -->
+			<div class="dialog_box">
+            	<div class="dialog_top">
+                	<img src="img/dialog_bg.png" alt="dialog" />
+                    <div class="pop_close">
+                    	<a href="#"><img src="img/pop_close.png" alt="팝업창 닫기" /></a>
+                    </div>
+                </div>
+                <div class="dialog_bottom">
+                	<p class="dialog_p">충전하시겠습니까?</p>
+                    <p class="dialog_point"><span>1,000,000</span> point가 차감됩니다.</p>
+                   	<div class="heart_btn_box">
+                    	<a href="#"><img src="img/ok_btn.jpg" alt="OK" /></a>
+                    </div>
+                </div>
+            </div>
+     
+   
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>맨투맨티비</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/page.js"></script>
+<script type="text/javascript" src="js/flexslider/jquery.flexslider.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+        $('.main_roll').flexslider({
+			animation: "fade",            
+			slideshow: true,              
+			slideshowSpeed: 3000,         
+			initDelay: 0,                 
+			pauseOnAction: false,          
+			pauseOnHover: false,          
+			video: false,                
+			controlNav: true,            
+			directionNav: false,           
+			prevText: "Previous",         
+			nextText: "Next"              
+		});
+		
+    });
+</script>
+</head>
+
+<body>
+			<!-- 팝업 -->
+			<div class="egg_box">
+            	<div class="heart_top">
+                	<img src="img/mtmtv_bg.png" alt="mtmTV" />
+                    <div class="pop_close">
+                    	<a href="#"><img src="img/pop_close.png" alt="팝업창 닫기" /></a>
+                    </div>
+                </div>
+                <div class="heart_bottom">
+                	<p class="buy_title"><img src="img/buy.jpg" alt="구매하기" /></p>
+                     <form>
+                    	<fieldset>
+                        	<legend class="hide">알선물하기</legend>
+                            <div class="egg_payment_box2">
+                            	<table summary="알 선물하기" class="egg_table">
+                                	<tbody>
+                                    	<tr>
+                                        	<th width="118"><img src="img/buy1.jpg" alt="구매할 상품" /></th>
+                                            <td width="520">마일리지 10000point</td>
+                                        </tr>
+                                        <tr>
+                                        	<th><img src="img/buy2.jpg" alt="상품가격" /></th>
+                                            <td><span class="egg_number">91100원</span> &nbsp;*부가세포함</td>
+                                        </tr>
+                                        <tr>
+                                        	<th rowspan="2"><img src="img/buy3.jpg" alt="결제방법" /></th>
+                                            <td>
+                                            	<input type="radio" name="" id=""  checked="checked" /> 휴대폰 
+                                                <input type="radio" name="" id="" /> 신용카드 
+                                                <input type="radio" name="" id="" /> 계좌이체
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+          					</div>
+                            <div class="egg_btn_box">
+                            	<input type="button" name="" id="" class="buy_small_btn" value=""  />
+                                <a href="#"><img src="img/cancel_small_btn.jpg" alt="취소"/></a>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+     
+   
+</body>
+</html>

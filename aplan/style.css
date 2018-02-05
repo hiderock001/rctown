@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS style */
+
+#wrap { width:1000px; margin:0 auto; position:relative; } 
+#header { height:142px; position:relative; z-index:100;  }
+#content { width:1000px; position:relative; z-index:50; }
+#footer { height:150px; position:relative; }
+
+
+/* header */
+h1.logo a { position:absolute; left:0; top:8px; }
+p.p_1 { position:absolute; left:128px; top:59px; }
+p.p_2 { position:absolute; left:169px; top:74px; }
+ul.top_menu {position:absolute; right:2px; top:5px; }
+ul.top_menu li { float:left; }
+ul.top_menu li a { background-image:url(img/top_menu_bar.jpg); background-repeat:no-repeat; background-position:left 0; padding:0 12px;  display:block; line-height:15px; }
+ul.top_menu li:first-child a { background-image:none; }
+.ashop { position:absolute; right:1px; top:55px; }
+
+ul.gnb { position:absolute; left:0; top:98px; background-color:#353535; height:30px; width:1000px; }
+ul.gnb > li { float:left; position:relative; width:166px;  }
+ul.gnb > li > a {  color:#fff; font-weight:bold; line-height:30px;  display:block; width:130px; padding-left:36px; }
+ul.sub { width:166px; position:absolute; left:0; top:100%; height:193px;  background-color:#fff;  border-left:1px solid #666; padding-top:10px;  }
+ul#sub01 { border-left:none; width:166px; }
+ul#sub06 { width:170px; }
+ul.sub li a { display:block; color:#737373; background-image:url(img/gnb_bar.png); background-repeat:no-repeat; background-position:24px center;   line-height:22px; padding-left:36px; }
+ul.sub li:hover a { background-color:#fff; color:#252525; }
+ul.gnb li:hover ul.sub { background-color:#d8efad; }
+
+/* contents */
+#container {   margin-top:18px; }
+#container #update { width:347px; height:296px;  border-right:1px dotted #8c8c8c; float:left; position:relative; }
+#update h3.c_update { position:absolute; left:13px; top:0; font-weight:bold; font-size:14px; }
+#update h3.c_update span { margin-left:5px; }
+.new_update { position:absolute; left:0; top:51px; width:100%; }
+.new_update li { float:left; width:95px; height:95px; background-color:#aaa;  margin-right:20px; margin-bottom:22px; }
+.new_update li a { display:block; margin-left:13px; line-height:22px;  }
+.new_update li:hover a { text-decoration:underline; color:#000; }
+#container #news { width:340px; height:296px; border-right:1px dotted #8c8c8c; float:left; position:relative; }
+#news h3.c_news { position:absolute; left:13px; top:0; font-weight:bold; font-size:14px; }
+#news h3.c_news span { margin-left:8px; }
+#news p.c_img1 { position:absolute; left:5px; top:45px; }
+#news #s1 a { position:absolute; left:80px; top:48px; line-height:13px; display:block; }
+#news #s2 a { position:absolute; left:80px; top:65px; line-height:13px; display:block; }
+#news #s3 a { position:absolute; left:80px; top:82px; line-height:13px; display:block; }
+#news p.c_img2 { position:absolute; left:5px; top:120px; }
+#news #s4 a { position:absolute; left:80px; top:123px; line-height:13px; display:block; }
+#news #s5 a { position:absolute; left:80px; top:140px; line-height:13px; display:block; }
+#news #s6 a { position:absolute; left:80px; top:157px; line-height:13px; display:block; }
+#news p.story:hover a { color:#000; text-decoration:underline; }
+#container #notice { width:310px; height:296px; border-right:1px dotted #8c8c8c; float:left; position:relative; }
+#notice h3.c_notice { position:absolute; left:13px; top:0; font-weight:bold; font-size:14px; }
+h3.c_notice span { margin-left:5px; }
+ul.notice_list { position:absolute; left:5px; top:55px; }
+ul.notice_list li a { line-height:15px; display:block; background-image:url(img/notice_bar.jpg); background-repeat:no-repeat; background-position:left center; padding-left:7px; }
+ul.notice_list li:hover a { color:#000; text-decoration:underline; }
+h3.c_customer { position:absolute; left:13px; top:157px; font-weight:bold; font-size:14px; }
+h3.c_customer span { margin-left:5px; }
+p.center { position:absolute; left:15px; top:208px; }
+p.time { position:absolute; left:120px; top:200px; color:#353535; font-size:13px; font-weight:bold; }
+p.sang { position:absolute; left:120px; top:215px; font-size:11px; }
+p.tele { position:absolute; left:120px; top:231px; font-size:18px; color:#353535; font-weight:bold; }
+p.hand { position:absolute; left:120px; top:259px; font-size:18px; color:#353535; font-weight:bold; }
+#container #innovation { margin-top:20px; width:688px; height:388px; border-top:1px solid #dfdfdf; float:left; position:relative; border-right:1px dotted #8c8c8c; }
+h3.c_innovation { position:absolute; left:6px; top:10px; }
+p.inno_img { position:absolute; left:15px; top:115px; }
+p.inno_main_bg { position:absolute; left:282px; top:71px; }
+#container #event { margin-top:20px; width:311px; height:388px; border-top:1px solid #dfdfdf; float:left; position:relative; }
+h3.c_event { position:absolute; left:13px; top:10px; font-weight:bold; font-size:14px; }
+h3.c_event span { margin-left:5px; }
+.event_box { width:268px; height:69px; background-color:#494949; position:absolute; left:13px; top:62px; padding:6px 7px 5px 7px; margin-bottom:32px; }
+.event_inner_box { border:2px solid #a4a4a6; width:264px; height:65px; position:relative; }
+.open { position:absolute; left:72px; top:12px; font-size:16px; color:#fff; }
+.open_50 { position:absolute; left:45px; top:36px; font-size:16px; color:#fff; } 
+#side_menu { width:296px; height:215px; position:absolute; left:14px; top:174px;  border-top:1px dotted #bababa; }
+.side_menu_list { position:absolute; top:26px; left:5px; }
+.side_menu_list li { float:left; margin-right:5px; }
+
+/* footer */
+#f_top { width:1000px; height:149px; background-color:#353535; border-bottom:1px solid #727272; }
+h2.footer_logo a { position:absolute; left:19px; top:19px; }
+ul.footer_gnb { position:absolute; left:445px; top:13px; height:130px; width:550px; }
+ul.footer_gnb > li { float:left; margin-right:10px; }
+ul.footer_gnb li a { color:#fff; font-size:11px; }
+.f_sub { margin-top:5px; }
+.f_sub li a { line-height:15px; }
+.f_sub li:hover a { text-decoration:underline; }
+address { position:absolute; left:130px; top:20px; color:#fff; font-style:normal; font-size:11px; line-height:15px; }
+
+/* sideMenu */
+#sideMenu { position:absolute; right:-70px; top:100px; }
+#sideMenu p { margin-top:10px; }

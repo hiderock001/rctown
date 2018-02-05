@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>맨투맨티비</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/page.js"></script>
+<script type="text/javascript" src="js/flexslider/jquery.flexslider.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+        $('.main_roll').flexslider({
+			animation: "fade",            
+			slideshow: true,              
+			slideshowSpeed: 3000,         
+			initDelay: 0,                 
+			pauseOnAction: false,          
+			pauseOnHover: false,          
+			video: false,                
+			controlNav: true,            
+			directionNav: false,           
+			prevText: "Previous",         
+			nextText: "Next"              
+		});
+		
+    });
+</script>
+</head>
+
+<body>
+			<!-- 팝업 -->
+			<div class="heart_box">
+            	<div class="heart_top">
+                	<img src="img/mtmtv_bg.png" alt="mtmtv_타이틀" />
+                    <div class="pop_close">
+                    	<a href="#"><img src="img/pop_close.png" alt="팝업창 닫기" /></a>
+                    </div>
+                </div>
+                <div class="heart_bottom">
+                	<p class="heart_title"><img src="img/heart_title.jpg" alt="하트지불하기" /></p>
+                    <p class="heart_p">채팅방입장료 하트5개를 지불 후 채팅방에 입장가능합니다. 채팅방 입장후 1분당 1개, 관전은 2분당 1개가 차감됩니다.</p>
+                    <div class="heart_payment">
+                    	<table class="egg_table" summary="하트지불하기">
+                        	<tbody>
+                            	<tr>
+                                	<td width="118"><img src="img/heart1.jpg" alt="내가 보유한 하트" /></td>
+                                    <td width="519">99,999개<a href="#"><img src="img/heart_exchange.jpg" alt="하트 교환하기" /></a></td>
+                                </tr>
+                                <tr>
+                                	<td><img src="img/heart2.jpg" alt="지불할 하트" /></td>
+                                    <td>5개</td>
+                                </tr>
+                            <tbody>
+                        </table>
+                    </div>
+                    <div class="heart_btn_box">
+                    	<a href="#"><img src="img/heart_pay_btn.jpg" alt="지불하기" /></a>
+                        <a href="#"><img src="img/cancel_small_btn.jpg" alt="취소하기" /></a>
+                    </div>
+                </div>
+            </div>
+     
+   
+</body>
+</html>

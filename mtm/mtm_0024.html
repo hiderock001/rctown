@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>맨투맨티비</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/page.js"></script>
+<script type="text/javascript" src="js/flexslider/jquery.flexslider.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+        $('.main_roll').flexslider({
+			animation: "fade",            
+			slideshow: true,              
+			slideshowSpeed: 3000,         
+			initDelay: 0,                 
+			pauseOnAction: false,          
+			pauseOnHover: false,          
+			video: false,                
+			controlNav: true,            
+			directionNav: false,           
+			prevText: "Previous",         
+			nextText: "Next"              
+		});
+		
+    });
+</script>
+</head>
+
+<body>
+			<!-- 팝업 -->
+			<div class="profile_box">
+            	<div class="profile_top">
+                	<img src="img/bj_profile.png" alt="bj 프로필" />
+                    <div class="pop_close">
+                    	<a href="#"><img src="img/pop_close.png" alt="팝업창 닫기" /></a>
+                    </div>
+                </div>
+                <div class="profile_bottom">
+                	<div class="bj_profile">
+                    	<img src="img/profile_img.jpg" alt="프로필사진" />
+                    	<div class="profile_list_box">
+                    		<ul class="profile_list">
+                        		<li><img src="img/profile1.jpg" alt="닉네임" />RC 타운<a href="#"><img src="img/egg_present.jpg" alt="알 충전하기" class="egg_charge" /></a></li>
+                            	<li><img src="img/profile2.jpg" alt="나이" />17</li>
+                            	<li><img src="img/profile3.jpg" alt="사는곳" />서울시 종로구</li>
+                            	<li><img src="img/profile4.jpg" alt="키" />160</li>
+                            	<li><img src="img/profile5.jpg" alt="몸무게" />비공개</li>
+                            	<li><img src="img/profile6.jpg" alt="좋아하는 것" />아이스크림, 강아지</li>
+                        	</ul>
+                    	</div>
+                    </div>
+                    <div class="profile_view_box">
+                    	
+                    </div>
+                </div>
+            </div>
+     
+   
+</body>
+</html>

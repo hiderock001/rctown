@@ -1,0 +1,79 @@
+ @charset "UTF-8";
+
+body{background-color:#f7f7f7;}
+#header{width::100%;height:158px;background:url(../img/header_bg.jpg); repeat-x;}
+.header_inner{margin:0 auto;width:1000px;height:158px;background:url(../img/hb_bg.jpg) no-repeat;}
+#contents{width:100%;}
+.contents_inner{margin:0 auto;width:998px;border-left:1px solid #dfdfdf;border-right:1px solid #dfdfdf;background-color:#fff;*zoom:1;}
+.contents_inner:after{content:"";display:block;clear:both;}
+#footer{width:100%;height:149px;background:url(../img/footer_bg.jpg) repeat-x;border-top:2px solid #053579;}
+.footer_inner{margin:0 auto;width:1000px;height:149px;}
+
+
+
+/* header */
+.unb{float:right;}
+.unb li{float:left;}
+.logo_cni{float:left;padding-top:28px;}
+.head_form_box{position:absolute;top:19px;right:8px;*zoom:1;}
+.head_form_box:after{content:"";display:block;clear:both;}
+.head_form_box form input{float:left;}
+.h_input{padding-left:15px;width:163px;height:30px;line-height:30px;background:url(../img/h_input.png) no-repeat;border:none;color:#6f6f6f;}
+.h_btn{border:none;width:34px;height:30px;background:url(../img/h_btn.png) no-repeat;cursor:pointer;}
+.h_top{height:32px;}
+.h_bottom{position:relative;height:126px;backgroumn}
+.gnb_box{position:absolute;right:0;top:75px;}
+.gnb{text-align:center;*zoom:1;}
+.gnb:after{content:"";display:block;clear:both;}
+.gnb > li{position:relative;float:left;width:87px;height:30px;}
+.sub{position:absolute;left:0;top:30px;width:570px;display:none;}
+.sub li{float:left;padding-right:25px;}
+.sub li a{display:block;height:30px;}
+.sub1{left:15px;}
+.sub2{left:23px;}
+.sub3{left:37px;}
+.sub4{left:-270px;}
+.sub5{left:25px;width:100px;}
+.sub6{left:13px;width:100px;}
+
+
+
+/* footer */
+.footer_inner{*zoom:1;}
+.footer_inner:after{content:"";display:block;clear:both;}
+.footer_inner h3{float:left;padding-left:35px;padding-top:41px;}
+.f_con_box{position:relative;float:left;padding-left:39px;padding-top:25px;width:753px;}
+.f_unb li{float:left;}
+.f_unb li a{padding-left:8px;padding-right:9px;color:#202020;background:url(../img/f_unb_bar.gif) no-repeat left center;}
+.f_unb li:first-child a{padding-left:0;background:none;}
+.address_list{position:absolute;left:39px;top:57px;width:541px;}
+.address_list li{float:left;background:url(../img/address_bar.gif) no-repeat left center;padding:0 12px;color:#909090;font-size:12px;line-height:18px;}
+.address_list li:first-child{background:none;padding-left:0;}
+.address_list li.no_ba{background:none;padding-left:0;}
+
+
+
+/* sub */
+.sub_main{padding-top:5px;background:url(../img/border_bg.png) repeat-x left top;*zoom:1;}
+.sub_main:after{content:"";display:block;clear:both;}
+.sub_main > div{float:left;}
+.lnb{width:229px;}
+.sub_inner{padding-right:19px;width:width:750px;} 
+
+
+/* category */
+.category{float:right;padding-top:10px;padding-right:9px;color:#909090;}
+.category a{color:#909090;}
+
+/* paging */
+.paging{padding:25px;text-align:center;}
+.paging a{margin-left:10px;}
+.paging_btn{display:inline-block;min-width:20px;height:20px;border:1px solid #d2d2d2;line-height:22px;vertical-align:top;}
+.paging_btn_on{background-color:#979797;color:#fff;}
+.paging_btn:active{background-color:#979797;color:#fff;}
+.paging_margin{margin-top:30px;}
+
+
+/* 파일 찾기 버튼 통일 시키기 */
+.file_wrap{margin-left:5px;display:inline-block;width:59px;height:23px;background:url(../img/join_search.jpg) no-repeat;}
+.file_input{filter:alpha(opacity:0);opacity:0;width:59px;height:23px;}

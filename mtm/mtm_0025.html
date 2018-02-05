@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>맨투맨티비</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/page.js"></script>
+<script type="text/javascript" src="js/flexslider/jquery.flexslider.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+        $('.main_roll').flexslider({
+			animation: "fade",            
+			slideshow: true,              
+			slideshowSpeed: 3000,         
+			initDelay: 0,                 
+			pauseOnAction: false,          
+			pauseOnHover: false,          
+			video: false,                
+			controlNav: true,            
+			directionNav: false,           
+			prevText: "Previous",         
+			nextText: "Next"              
+		});
+		
+    });
+</script>
+</head>
+
+<body>
+			<!-- 팝업 -->
+			<div class="egg_box">
+            	<div class="heart_top">
+                	<img src="img/mtmtv_bg.png" alt="mtmtv_타이틀" />
+                    <div class="pop_close">
+                    	<a href="#"><img src="img/pop_close.png" alt="팝업창 닫기" /></a>
+                    </div>
+                </div>
+                <div class="heart_bottom">
+                	<p class="heart_title"><img src="img/egg_present_title.jpg" alt="알선물하기" /></p>
+                    <p class="heart_p">BJ에게 선물할 수 있는 유료아이템입니다.(BJ는 알을 환전하여 실제수익으로 돌려받게 됩니다.)</p>
+                    <form>
+                    	<fieldset>
+                        	<legend class="hide">알선물하기</legend>
+                            <div class="egg_payment_box">
+                            	<table summary="알 선물하기" class="egg_table">
+                                	<tbody>
+                                    	<tr>
+                                        	<th width="118"><img src="img/egg1.jpg" alt="알을 선물할 BJ" /></th>
+                                            <td width="520">닉네임이 나옵니다.(<span>아이디가나옵니다.</span>)</td>
+                                        </tr>
+                                        <tr>
+                                        	<th><img src="img/egg2.jpg" alt="내가보유한 알" /></th>
+                                            <td><span class="egg_number">99,999개</span><a href="#"><img src="img/egg_charge.jpg" alt="알충전하기" /></a></td>
+                                        </tr>
+                                        <tr>
+                                        	<th rowspan="2"><img src="img/egg3.jpg" alt="선물할 알" /></th>
+                                            <td>
+                                            	<input type="radio" name="" id="" /> 100개 
+                                                <input type="radio" name="" id="" /> 300개 
+                                                <input type="radio" name="" id="" /> 500개 
+                                                <input type="radio" name="" id="" /> 1000개
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                        	<td>
+                                            	<input type="radio" name="" id="" /> 직접입력 
+                                                <label for="" class="hide">직접입력</label><input type="text" name="" id="" class="egg_input" value=""/> 개
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+          					</div>
+                            <p class="egg_hun">＊알 선물은 100개부터 가능합니다.</p>
+                            <div class="egg_btn_box">
+                            	<input type="button" name="" id="" class="egg_present_btn" value=""  />
+                                <a href="#"><img src="img/cancel_small_btn.jpg" alt="취소"/></a>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+     
+   
+</body>
+</html>
